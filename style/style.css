@@ -1,0 +1,157 @@
+@import 'fonts.css';
+
+/* Root start */
+
+:root {
+    --DMB: 'DMSans_18pt-Bold';
+    --DMM: 'DMSans_18pt-Medium';
+    --DMR: 'DMSans_18pt-Regular';
+    --MB: 'Rosario-Bold';
+    --body: #ffffff;
+    --text: #323232;
+    --dots: #828282;
+    --dots-active: #7177F1;
+    --purple: #7177F1;
+    --orange: #E44F26;
+    --blue: #1572B6;
+    --light-red: #790FF1;
+    --green: #09a66d;
+}
+
+body {
+    background: var(--body);
+    color: var(--text);
+    font-family: var(--DMR);
+}
+
+h1,
+h2,
+p,
+ul,
+li {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+/* Root end */
+/* **************************** */
+
+/* Header start */
+
+.header {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.header__nav {
+    background: var(--body) !important;
+}
+
+.header__nav-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__dors-icon {
+    color: var(--text);
+    margin-left: 30px;
+}
+
+.header__dors-btn {
+    margin-left: 30px;
+    color: var(--body);
+    background: var(--green);
+    border-radius: 8px;
+    font-family: var(--DMR);
+    font-size: 18px;
+    line-height: 111%;
+    padding: 10px;
+}
+
+.container {
+    background: var(--body);
+    z-index: 1;
+    text-align: center;
+    padding: 20px;
+}
+
+.header__section {
+    display: flex;
+    justify-content: center;
+  
+}
+
+.header__content-title {
+    color: #222;
+    font-family: var(--MB);
+    font-size: 70px;
+    font-style: normal;
+    line-height: 90px;
+}
+
+.header__content-text {
+    color: var(--text);
+    text-align: center;
+    font-family: var(--DMR);
+    font-size: 18px;
+    font-style: normal;
+    line-height: 30px;
+}
+
+.header__content-btn {
+    color: var(--text);
+    text-align: center;
+    font-family: var(--DMR);
+    font-size: 18px;
+    font-style: normal;
+    line-height: 30px;
+}
+
+.header__content-icon {
+    background: var(--green);
+    border-radius: 64px;
+    padding: 20px;
+    color: var(--body);
+}
+
+.header__content-item {
+    display: flex;
+    vertical-align: top;
+}
+
+.statistics {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 18px;
+}
+
+.stat__item {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    font-size: 20px;
+    color: black;
+    border-radius: 1px;
+    background: var(--body);
+    padding: 20px;
+}
+
+
+.stat__item-icon {
+    font-size: 30px;
+    color: var(--green);
+}
+
+.stat__item-text{
+    font-size: 20px;
+    font-weight: bold;
+}
